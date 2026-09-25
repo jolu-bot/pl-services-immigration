@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À Propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "dashboard": "Tableau de Bord",
+    "logout": "Déconnexion",
+    "theme": "Thème"
+  },
+  "hero": {
+    "title": "Votre Partenaire de Confiance pour l'Immigration",
+    "subtitle": "P&L Services vous accompagne dans toutes vos démarches d'immigration avec expertise et professionnalisme depuis Douala, Cameroun.",
+    "cta": "Commencer ma Demande",
+    "cta_secondary": "Nos Services"
+  },
+  "services": {
+    "title": "Nos Services d'Immigration",
+    "subtitle": "Une gamme complète de services pour réussir votre projet d'immigration",
+    "visa_assistance": {
+      "title": "Assistance Visa",
+      "description": "Accompagnement complet pour vos demandes de visa touristique, étudiant, travail et famille."
+    },
+    "document_preparation": {
+      "title": "Préparation de Documents",
+      "description": "Aide à la constitution et vérification de tous vos documents officiels."
+    },
+    "legal_consultation": {
+      "title": "Consultation Juridique",
+      "description": "Conseils juridiques spécialisés en droit de l'immigration et des étrangers."
+    },
+    "application_tracking": {
+      "title": "Suivi de Dossier",
+      "description": "Suivi en temps réel de l'avancement de votre dossier d'immigration."
+    }
+  },
+  "form": {
+    "title": "Formulaire de Demande d'Immigration",
+    "personal_info": "Informations Personnelles",
+    "family_info": "Informations Familiales",
+    "education": "Parcours Scolaire",
+    "professional": "Antécédents Professionnels",
+    "residence": "Résidence & Immigration",
+    "declaration": "Déclaration et Signature",
+    "submit": "Soumettre la Demande",
+    "required": "Champ obligatoire",
+    "first_name": "Prénom",
+    "last_name": "Nom de famille",
+    "email": "Adresse e-mail",
+    "phone": "Téléphone",
+    "birth_date": "Date de naissance",
+    "birth_place": "Lieu de naissance",
+    "nationality": "Nationalité",
+    "passport_number": "Numéro de passeport",
+    "marital_status": "Situation matrimoniale",
+    "address": "Adresse complète"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue sur votre tableau de bord",
+    "applications": "Mes Demandes",
+    "documents": "Mes Documents",
+    "payments": "Paiements",
+    "profile": "Mon Profil"
+  },
+  "footer": {
+    "company": "P&L Services",
+    "description": "Cabinet d'immigration professionnel basé à Douala, Cameroun. Votre succès en immigration est notre priorité.",
+    "quick_links": "Liens Rapides",
+    "contact_info": "Informations de Contact",
+    "address": "Douala, Cameroun",
+    "phone": "+237 XXX XXX XXX",
+    "email": "contact@plservices.cm",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité",
+    "powered_by": "Propulsé par"
+  },
+  "legal": {
+    "title": "Mentions Légales",
+    "company_name": "P&L Services SARL",
+    "registration": "Société immatriculée au Registre du Commerce de Douala",
+    "director": "Directeur de la publication",
+    "hosting": "Hébergement",
+    "liability": "Responsabilité",
+    "liability_text": "P&L Services s'efforce de fournir des informations exactes et à jour. Cependant, nous ne pouvons garantir l'exactitude, la complétude ou l'actualité des informations fournies."
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "data_collection": "Collecte des Données",
+    "data_collection_text": "Nous collectons uniquement les données nécessaires au traitement de vos demandes d'immigration.",
+    "data_usage": "Utilisation des Données",
+    "data_usage_text": "Vos données personnelles sont utilisées exclusivement dans le cadre de nos services d'immigration et ne sont jamais partagées avec des tiers sans votre consentement.",
+    "data_security": "Sécurité des Données",
+    "data_security_text": "Nous mettons en œuvre des mesures de sécurité techniques et organisationnelles appropriées pour protéger vos données personnelles."
+  },
+  "common": {
+    "light_mode": "Mode Clair",
+    "dark_mode": "Mode Sombre",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "back": "Retour",
+    "continue": "Continuer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "close": "Fermer",
+    "error": "Erreur",
+    "success": "Succès",
+    "loading": "Chargement...",
+    "no_data": "Aucune donnée disponible"
+  }
+}

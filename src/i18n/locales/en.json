@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "login": "Login",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "theme": "Theme"
+  },
+  "hero": {
+    "title": "Your Trusted Immigration Partner",
+    "subtitle": "P&L Services accompanies you in all your immigration procedures with expertise and professionalism from Douala, Cameroon.",
+    "cta": "Start My Application",
+    "cta_secondary": "Our Services"
+  },
+  "services": {
+    "title": "Our Immigration Services",
+    "subtitle": "A complete range of services to make your immigration project successful",
+    "visa_assistance": {
+      "title": "Visa Assistance",
+      "description": "Complete support for your tourist, student, work and family visa applications."
+    },
+    "document_preparation": {
+      "title": "Document Preparation",
+      "description": "Help with the preparation and verification of all your official documents."
+    },
+    "legal_consultation": {
+      "title": "Legal Consultation",
+      "description": "Specialized legal advice in immigration and foreign law."
+    },
+    "application_tracking": {
+      "title": "Application Tracking",
+      "description": "Real-time tracking of your immigration file progress."
+    }
+  },
+  "form": {
+    "title": "Immigration Application Form",
+    "personal_info": "Personal Information",
+    "family_info": "Family Information",
+    "education": "Educational Background",
+    "professional": "Professional Background",
+    "residence": "Residence & Immigration",
+    "declaration": "Declaration and Signature",
+    "submit": "Submit Application",
+    "required": "Required field",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email Address",
+    "phone": "Phone",
+    "birth_date": "Date of Birth",
+    "birth_place": "Place of Birth",
+    "nationality": "Nationality",
+    "passport_number": "Passport Number",
+    "marital_status": "Marital Status",
+    "address": "Full Address"
+  },
+  "dashboard": {
+    "welcome": "Welcome to your dashboard",
+    "applications": "My Applications",
+    "documents": "My Documents",
+    "payments": "Payments",
+    "profile": "My Profile"
+  },
+  "footer": {
+    "company": "P&L Services",
+    "description": "Professional immigration firm based in Douala, Cameroon. Your immigration success is our priority.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Information",
+    "address": "Douala, Cameroon",
+    "phone": "+237 XXX XXX XXX",
+    "email": "contact@plservices.cm",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "powered_by": "Powered by"
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "company_name": "P&L Services SARL",
+    "registration": "Company registered in the Douala Trade Register",
+    "director": "Publication Director",
+    "hosting": "Hosting",
+    "liability": "Liability",
+    "liability_text": "P&L Services strives to provide accurate and up-to-date information. However, we cannot guarantee the accuracy, completeness or timeliness of the information provided."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "data_collection": "Data Collection",
+    "data_collection_text": "We only collect data necessary for processing your immigration applications.",
+    "data_usage": "Data Usage",
+    "data_usage_text": "Your personal data is used exclusively within the framework of our immigration services and is never shared with third parties without your consent.",
+    "data_security": "Data Security",
+    "data_security_text": "We implement appropriate technical and organizational security measures to protect your personal data."
+  },
+  "common": {
+    "light_mode": "Light Mode",
+    "dark_mode": "Dark Mode",
+    "previous": "Previous",
+    "next": "Next",
+    "back": "Back",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "error": "Error",
+    "success": "Success",
+    "loading": "Loading...",
+    "no_data": "No data available"
+  }
+}
