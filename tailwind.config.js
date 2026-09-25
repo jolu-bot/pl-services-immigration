@@ -1,0 +1,130 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
+          800: '#1e3a5f',
+          900: '#172554',
+          950: '#0a1530',
+        },
+        navy: {
+          50: '#f0f4f8',
+          100: '#d9e2ec',
+          200: '#bcccdc',
+          300: '#9fb1c9',
+          400: '#7d96b3',
+          500: '#5d7896',
+          600: '#4a6280',
+          700: '#3c4f68',
+          800: '#1e3a5f',
+          900: '#172554',
+          950: '#0a1530',
+        },
+        gold: {
+          50: '#fffbeb',
+          100: '#fef3c7',
+          200: '#fde68a',
+          300: '#fcd34d',
+          400: '#fbbf24',
+          500: '#f59e0b',
+          600: '#d97706',
+          700: '#b45309',
+          800: '#92400e',
+          900: '#78350f',
+        },
+        accent: {
+          50: '#ecfdf5',
+          100: '#d1fae5',
+          200: '#a7f3d0',
+          300: '#6ee7b7',
+          400: '#34d399',
+          500: '#10b981',
+          600: '#059669',
+          700: '#047857',
+          800: '#065f46',
+          900: '#064e3b',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.6s ease-out',
+        'fade-in-up': 'fadeInUp 0.6s ease-out',
+        'fade-in-down': 'fadeInDown 0.6s ease-out',
+        'slide-in-left': 'slideInLeft 0.6s ease-out',
+        'slide-in-right': 'slideInRight 0.6s ease-out',
+        'scale-in': 'scaleIn 0.4s ease-out',
+        'float': 'float 6s ease-in-out infinite',
+        'shimmer': 'shimmer 2s linear infinite',
+        'gradient-shift': 'gradientShift 8s ease infinite',
+        'pulse-soft': 'pulseSoft 3s ease-in-out infinite',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(30px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        fadeInDown: {
+          '0%': { opacity: '0', transform: 'translateY(-30px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        slideInLeft: {
+          '0%': { opacity: '0', transform: 'translateX(-30px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+        slideInRight: {
+          '0%': { opacity: '0', transform: 'translateX(30px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+        scaleIn: {
+          '0%': { opacity: '0', transform: 'scale(0.9)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+        shimmer: {
+          '0%': { backgroundPosition: '-1000px 0' },
+          '100%': { backgroundPosition: '1000px 0' },
+        },
+        gradientShift: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+        pulseSoft: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.7' },
+        },
+      },
+      backgroundImage: {
+        'grid-pattern': "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
+        'mesh-gradient': 'radial-gradient(at 20% 30%, rgba(30, 58, 95, 0.8) 0px, transparent 50%), radial-gradient(at 80% 20%, rgba(245, 158, 11, 0.15) 0px, transparent 50%), radial-gradient(at 50% 80%, rgba(23, 37, 84, 0.6) 0px, transparent 50%)',
+      },
+      boxShadow: {
+        'premium': '0 20px 60px -10px rgba(23, 37, 84, 0.15)',
+        'premium-lg': '0 30px 80px -15px rgba(23, 37, 84, 0.25)',
+        'gold': '0 10px 40px -5px rgba(245, 158, 11, 0.3)',
+        'inner-glow': 'inset 0 1px 0 0 rgba(255, 255, 255, 0.1)',
+      },
+    },
+  },
+  plugins: [],
+};
